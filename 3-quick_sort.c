@@ -28,7 +28,7 @@ void partition(int *array, int bot, int top, size_t size)
 }
 
 /**
- * partition - divide and conquer
+ * sorted_array - divide and conquer
  * @array: list of integers
  * @bot: first integer
  * @top: last integer
