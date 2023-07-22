@@ -117,6 +117,6 @@ void merge_all(int *array, int *lft, int lft_sid, int *rght, int rght_sid)
 
 void printing_subarray(const char *sid, int *array, int siz)
 {
-	printf("[%s}: ", sid);
+	printf("[%s]: ", sid);
 	print_array(array, siz);
 }
