@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
  * quick_sort - sorts an array of integers in ascending order
  * @array: array of integers
@@ -33,7 +34,9 @@ void partition(int *array, int bot, int top, size_t size)
  * @bot: first integer
  * @top: last integer
  * @size: length of array
+ * Return:- Always 0
  */
+
 int sorted_array(int *array, int bot, int top, size_t size)
 {
 	int swap, new_pivot;
