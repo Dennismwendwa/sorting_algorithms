@@ -19,6 +19,7 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
