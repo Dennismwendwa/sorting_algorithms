@@ -14,7 +14,7 @@ void shell_sort(int *array, size_t size)
 	while (n > 0)
 	{
 		int insert;
-		for (gap = n; gap < size; gap++)
+		for (gap = n; gap < size - 1; gap++)
 		{
 			insert = array[gap];
 			j = gap;
