@@ -15,6 +15,9 @@ void heap_sort(int *array, size_t size)
 	int k;
 	int h;
 
+	if (!array || size < 2)
+		return;
+
 	for (k = (size - 1) / 2; k >= 0; k--)
 	{
 		shifting_down(array, k, size - 1, size);

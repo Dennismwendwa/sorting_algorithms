@@ -96,6 +96,11 @@ static void bitonic_sequnce_recursive(int *array, size_t size, int direction)
 
 void bitonic_sort(int *array, size_t size)
 {
+	if (!array || size < 2)
+	{
+		return;
+	}
+
 	bitonic_sequnce_recursive(array, size, 1);
 }
 
