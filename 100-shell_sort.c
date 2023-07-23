@@ -30,24 +30,4 @@ void shell_sort(int *array, size_t size)
 		print_array(array, size);
 		i++;
 	}
-/*
-	for (gap = size / 2; gap >= 1; gap /= 2)
-	{
-		for (j = gap; j < size; j++)
-		{
-			for (i = j - gap; i >= 0; i -= gap)
-			{
-				if (array[i + gap] < array[i])
-				{
-					tmp = array [i];
-					array[i] = array[i + gap];
-					array[i + gap] = tmp;
-
-					print_array(array, size);
-				}
-				else
-					break;
-			}
-		}
-	}*/
 }
