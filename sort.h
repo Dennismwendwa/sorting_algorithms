@@ -33,5 +33,6 @@ void print_list(const listint_t *list);
 void quick_sort(int *array, size_t size);
 void partition(int *array, int bot, int top, size_t size);
 int sorted_array(int *array, int bot, int top, size_t size);
+void shell_sort(int *array, size_t size);
 
 #endif
