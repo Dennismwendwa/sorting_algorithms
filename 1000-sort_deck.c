@@ -51,6 +51,8 @@ void sort_deck(deck_node_t **deck)
 int compare_cards(const card_t *card1, const card_t *card2)
 {
 	int f;
+	const char *values[] = {"Ace", "2", "3", "4", "5", "6", "7", "8",
+		"9", "10", "Jack", "Queen", "King"};
 
 	if (card1->kind < card2->kind)
 	{
@@ -63,8 +65,6 @@ int compare_cards(const card_t *card1, const card_t *card2)
 	}
 	else
 	{
-		const char *values[] = {"Ace", "2", "3", "4", "5", "6", "7", "8",
-			"9", "10", "Jack", "Queen", "King"};
 
 		for (f = 0; f < 13; f++)
 		{

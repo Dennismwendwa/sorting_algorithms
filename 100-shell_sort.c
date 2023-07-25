@@ -1,9 +1,12 @@
 #include "sort.h"
+
 /**
  * shell_sort - sort using knuth shell formula
  * @array: list of interger
  * @size: size of array
+ * Return:- Always 0
  */
+
 void shell_sort(int *array, size_t size)
 {
 	size_t j, gap, n = 0, i = 0;
